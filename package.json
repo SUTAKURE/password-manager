@@ -1,0 +1,29 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "description": "secure manage for your password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.ts",
+    "lint-fix": "eslint --cache --fix src/ && prettier --write src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUTAKURE/password-manager.git"
+  },
+  "author": "SUTAKURE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUTAKURE/password-manager/issues"
+  },
+  "homepage": "https://github.com/SUTAKURE/password-manager#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0"
+  }
+}
